@@ -1,0 +1,328 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"1nr6UkvDiL\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>PORTAL</b></span>\",\"col\":12}},{\"id\":\"1hyi8SysUY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CRM Portal Page\",\"col\":3}},{\"id\":\"ktENiGaqXQ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"m6nZMB_DTb\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CRM report\",\"col\":3}},{\"id\":\"VdzRMvZHAG\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dashboard\",\"col\":3}},{\"id\":\"8-ycw7KR_R\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"x-HUAMeT7H\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Leads\",\"col\":4}},{\"id\":\"cogHCuHhpb\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Fresh Leads\",\"col\":4}},{\"id\":\"NtNiY-jUGU\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Original Leads\",\"col\":4}},{\"id\":\"nDF1V6c0mB\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Duplicate Leads\",\"col\":4}},{\"id\":\"6UYXKkkDOD\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Today Leads\",\"col\":4}},{\"id\":\"Vm-ti5I00B\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"5dUP527q-j\",\"type\":\"card\",\"data\":{\"card_name\":\"Setup Leads\",\"col\":4}},{\"id\":\"6dJwpD8oFl\",\"type\":\"card\",\"data\":{\"card_name\":\"Setup Inventory\",\"col\":4}},{\"id\":\"wz_8mVYHgU\",\"type\":\"card\",\"data\":{\"card_name\":\"Core\",\"col\":4}},{\"id\":\"RPG1A6w8Yr\",\"type\":\"card\",\"data\":{\"card_name\":\"WhatsApp\",\"col\":4}},{\"id\":\"TZ7cULX3Tk\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "creation": "2023-11-27 13:55:17.090361",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "filter",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "Jossoor CRM",
+ "links": [
+  {
+   "description": "Real estate inventory ",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Setup Inventory",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Projects",
+   "link_count": 0,
+   "link_to": "Real Estate Project",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Project unit ",
+   "link_count": 0,
+   "link_to": "Project Unit",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Unit",
+   "link_count": 0,
+   "link_to": "Unit",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Core",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Users",
+   "link_count": 0,
+   "link_to": "User",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Contact",
+   "link_count": 0,
+   "link_to": "Contact",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Team Leaders & Members ",
+   "link_count": 0,
+   "link_to": "Team",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Setup Leads",
+   "link_count": 9,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Leads",
+   "link_count": 0,
+   "link_to": "CRM Lead",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Import Data",
+   "link_count": 0,
+   "link_to": "Data Import",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Automatic Assignment ",
+   "link_count": 0,
+   "link_to": "Assignment Rule",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Marketing campaign ",
+   "link_count": 0,
+   "link_to": "CRM Campaign",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lead Source",
+   "link_count": 0,
+   "link_to": "Lead Source",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lead Status",
+   "link_count": 0,
+   "link_to": "CRM Lead Status",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Territories",
+   "link_count": 0,
+   "link_to": "CRM Territory",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Industries",
+   "link_count": 0,
+   "link_to": "CRM Industry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u0627\u0644\u063a\u064a\u0627\u0628",
+   "link_count": 0,
+   "link_to": "Assignment Rule",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "WhatsApp",
+   "link_count": 6,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "WhatsApp Message",
+   "link_count": 0,
+   "link_to": "WhatsApp Message",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "WhatsApp Template ",
+   "link_count": 0,
+   "link_to": "WhatsApp Templates",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Whatsapp Recipients",
+   "link_count": 0,
+   "link_to": "WhatsApp Recipient List",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bulk Messages",
+   "link_count": 0,
+   "link_to": "Bulk WhatsApp Message",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "WhatsApp Settings",
+   "link_count": 0,
+   "link_to": "WhatsApp Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Notification Log",
+   "link_count": 0,
+   "link_to": "WhatsApp Notification Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-12-11 21:00:25.277533",
+ "modified_by": "reham.mourad@trustagency.com",
+ "module": "FCRM",
+ "name": "Jossoor CRM",
+ "number_cards": [
+  {
+   "label": "Duplicate Leads",
+   "number_card_name": "Duplicate Leads"
+  },
+  {
+   "label": "Fresh Leads",
+   "number_card_name": "Fresh Leads"
+  },
+  {
+   "label": "Today Leads",
+   "number_card_name": "New Leads (Today)"
+  },
+  {
+   "label": "Original Leads",
+   "number_card_name": "Original Leads"
+  },
+  {
+   "label": "Total Leads",
+   "number_card_name": "Total leads"
+  }
+ ],
+ "owner": "shariq@frappe.io",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Sales Manager"
+  }
+ ],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Dashboard",
+   "link_to": "Jossoor CRM Dashboard",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "CRM report",
+   "link_to": "CRM report",
+   "report_ref_doctype": "CRM Lead",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "CRM Portal Page",
+   "type": "URL",
+   "url": "/crm"
+  }
+ ],
+ "title": "Jossoor CRM"
+}
